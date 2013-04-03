@@ -1,10 +1,10 @@
 ﻿using FluentNHibernate.Cfg;
 using FluentNHibernate.Cfg.Db;
+using FluentNHibernate.Conventions.Helpers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NHibernate;
 using QueryOverSamples.Domain;
 using System.Linq;
-using FluentNHibernate.Conventions.Helpers;
 
 namespace QueryOverSamples
 {
