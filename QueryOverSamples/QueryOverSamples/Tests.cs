@@ -49,5 +49,17 @@ namespace QueryOverSamples
 
 			Assert.IsTrue(persons.Any(p => p.Name == "Max"));
 		}
+
+		[TestMethod]
+		public void RowCount()
+		{
+			Session.Save(new Person { Name = "Max1" });
+			Session.Save(new Person { Name = "Max2" });
+
+			var query = Session.QueryOver<Person>();
+			var personsCount = query.RowCount();
+
+			Assert.AreEqual(2, personsCount);
+		}
 	}
 }
