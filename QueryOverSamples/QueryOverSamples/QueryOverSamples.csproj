@@ -68,7 +68,8 @@
     <Compile Include="ConnectionString.cs" />
     <Compile Include="Domain\Person.cs" />
     <Compile Include="Mappings\PersonMap.cs" />
-    <Compile Include="Tests.cs" />
+    <Compile Include="SessionTests.cs" />
+    <Compile Include="SimpleTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
