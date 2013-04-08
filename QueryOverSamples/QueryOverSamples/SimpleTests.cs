@@ -1,11 +1,12 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using QueryOverSamples.Connectivity;
 using QueryOverSamples.Domain;
 using System.Linq;
 
 namespace QueryOverSamples
 {
 	[TestClass]
-	public class SimpleTests : SessionTests
+	public class SimpleTests : SqlCeTests
 	{
 		[TestMethod]
 		public void SaveAndRetrieve()

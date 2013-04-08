@@ -5,9 +5,9 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NHibernate;
 using QueryOverSamples.Domain;
 
-namespace QueryOverSamples
+namespace QueryOverSamples.Connectivity
 {
-	public abstract class SessionTests
+	public abstract class SqlCeTests
 	{
 		protected ISession Session;
 
