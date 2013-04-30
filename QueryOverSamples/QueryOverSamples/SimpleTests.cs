@@ -6,7 +6,7 @@ using System.Linq;
 namespace QueryOverSamples
 {
 	[TestClass]
-	public class SimpleTests : SqlCeTests
+	public class SimpleTests : SqlCeTests//dsfdasfdsfds
 	{
 		[TestMethod]
 		public void SaveAndRetrieve()
