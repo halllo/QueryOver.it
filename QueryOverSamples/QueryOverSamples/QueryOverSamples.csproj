@@ -65,11 +65,12 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Connectivity\ConnectionString.cs" />
+    <Compile Include="ConnectionString.cs" />
     <Compile Include="Domain\Person.cs" />
     <Compile Include="Mappings\PersonMap.cs" />
-    <Compile Include="Connectivity\SqlCeTests.cs" />
-    <Compile Include="SimpleTests.cs" />
+    <Compile Include="TestsForMsSql.cs" />
+    <Compile Include="TestsForSqlCe.cs" />
+    <Compile Include="Tests\SaveRetrieveTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

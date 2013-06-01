@@ -7,12 +7,12 @@ namespace QueryOverSamples.Mappings
 	{
 		public PersonMap()
 		{
-            Table("Person");
+			Table("Person");
 
 			Id(p => p.Id).GeneratedBy.Identity();
 			Map(p => p.Name);
-            Map(p => p.FirstName);
-            Map(p => p.DateOfBirth);
+			Map(p => p.FirstName);
+			Map(p => p.DateOfBirth);
 		}
 	}
 }
