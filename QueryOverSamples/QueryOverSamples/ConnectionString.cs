@@ -3,7 +3,7 @@ using NHibernate.Tool.hbm2ddl;
 using System.Data.SqlServerCe;
 using System.IO;
 
-namespace QueryOverSamples
+namespace QueryOverSamples.Connectivity
 {
 	public class ConnectionString
 	{
@@ -20,7 +20,7 @@ namespace QueryOverSamples
 		}
 	}
 
-	public static class ConnectionStringExtensions
+	public static class ConnectionStringOperations
 	{
 		public static void CreateDatabase(this ConnectionString connectionString, Configuration config)
 		{
